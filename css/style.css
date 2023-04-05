@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Inter-ExtraBold";
+    src: url(font/Inter/static/Inter-ExtraBold.ttf);
+}
+
+h1 {
+    font-family: "Inter-ExtraBold";
+}
+
+.hero-con {
+    background-image: linear-gradient(to bottom right, #52bda97e, #ffffff9a);
+}
+
+.hero-row {
+    height: 100vh;
+}
+
+.green-color {
+    color: #54BD95;
+}
+
+.green-bg {
+    background-color: #54BD95;
+}
+
+.hero-h1 {
+    font-size: 60px;
+}
+
+/* slider */
+.owl-carousel .owl-item img {
+    display: block;
+    width: 200px !important;
+    margin-inline: auto;
+}
+
+/* slider */
+/* nav-scroll */
+
+nav {
+    position: fixed;
+    background: transparent;
+}
+
+nav.scrolled {
+    background: #0f0f0fb4;
+}
+
+nav.scrolled a {
+    color: rgb(255, 255, 255) !important;
+    font-weight: bolder;
+}
+
+main {
+    height: 200vh;
+}
+
+/* slider */

@@ -8,38 +8,107 @@
     <title>BICCAS</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <script src="js/custom.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
+        <nav class="navbar navbar-expand-lg black nav fixed-top py-4">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="image/Biccas.png" alt="not-found"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active  mx-3" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link mx-3" href="#">Product</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link mx-3" href="#">Faq's</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            <a class="nav-link mx-3" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-3" href="#">About Us</a>
                         </li>
                     </ul>
+                    <div>
+                        <button class="px-3 py-2 border-0 bg-transparent text-secondary">Login</button>
+                        <button class="border-0 green-bg px-3 py-2 rounded-3 text-white">signUp</button>
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
+    <!-- navbar-end -->
+    <section class="container-fluid hero-con">
+        <div class="container pt-5" >
+            <div class="row pt-3 hero-row align-items-center justify-content-center">
+                <div class="col-5">
+                    <h1 class="hero-h1">We’re here to Increase your Productivity</h1>
+                    <img src="image/hero-line.png" class="img-fluid" alt="not-found">
+                    <p class="pt-5">Let's make your work more organize and easily using the Taskio Dashboard with many
+                        of the latest
+                        featuresin managing
+                        work every day.</p>
+                    <div class="row py-3 align-items-center justify-content-center">
+                        <div class="col-6">
+                            <button class="border-0 green-bg px-4 py-3 rounded-pill text-white">Try free Trial</button>
+                        </div>
+                        <div class="col-6">
+                            <button class="border-0 bg-transparent"><img src="image/video-icon.png" alt="not-found mx-3"
+                                    style="width: 50px ; height: 50px;" class="img-fluid text-dark"> view
+                                demo</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-7 text-end pe-0">
+                    <img src="image/hero-img.png" class="img-fluid" alt="not-found">
+                </div>
+            </div>
+        </div>
+        <!-- slider -->
+        <h1 class="text-center">More than 25,000 teams use Collabs</h1>
+        <div class="row">
+            <div class="main-content py-5">
+                <div class="owl-carousel product-carousel">
+                    <div class="item">
+                        <img src="image/clients/clients (1).png" class="img-fluid" alt="not-found">
+                    </div>
+                    <div class="item">
+                        <img src="image/clients/clients (2).png" alt="not-found">
+                    </div>
+                    <div class="item">
+                        <img src="image/clients/clients (3).png" alt="not-found">
+                    </div>
+                    <div class="item">
+                        <img src="image/clients/clients (4).png" alt="not-found">
+                    </div>
+                    <div class="item">
+                        <img src="image/clients/clients (5).png" alt="not-found">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- slider -->
+    </section>
+    <!-- hero-section-end -->
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="assets/owlcarousel/owl.carousel.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 
 </body>
 
