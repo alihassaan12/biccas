@@ -7,6 +7,11 @@ h1 {
     font-family: "Inter-ExtraBold";
 }
 
+h2 {
+    font-size: 30px !important;
+    font-family: "Inter-ExtraBold";
+}
+
 .hero-con {
     background-image: linear-gradient(to bottom right, #52bda97e, #ffffff9a);
 }
@@ -56,3 +61,83 @@ main {
 }
 
 /* slider */
+
+.bg-scnd-color {
+    background-color: #F9F8FE;
+}
+
+.text-warning {
+    color: #FFC728;
+}
+
+.p-gray {
+    color: #A6A6A6;
+}
+
+.third-sec-bg {
+    background-image: linear-gradient(to bottom right, #52bda97e, #ebebeb7e, #ffd6d694);
+}
+
+.fa-circle-check {
+    font-size: 17px;
+}
+
+.card-bg {
+    background-color: #ffff;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+
+}
+
+.card-bg-body {
+    background-color: #F9FAFB;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.procard-bg {
+    background-color: #54BD95;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    color: white;
+
+}
+
+.procard-bg-body {
+    background-color: #ffff;
+    border-radius: 20px;
+    padding: 30px;
+    color: black;
+}
+
+.tab-button {
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    color: black;
+    font-weight: bolder;
+}
+
+.tab-button.active {
+    background-color: #54BD95;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    color: white;
+    font-weight: bolder;
+}
+
+.content {
+    display: none;
+}
+
+.content.active {
+    display: block;
+}
+.footer-bg{
+    background: rgba(22, 28, 40, 1);
+}
+.footer-sec{
+    background-color: rgba(34, 41, 56, 1);
+}
